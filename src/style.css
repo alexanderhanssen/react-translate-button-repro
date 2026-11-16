@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  max-width: 52rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+nav,
+li {
+  margin-bottom: 0.75rem;
+}
+
+.example {
+  margin: 2rem 0;
+}
+
+[role="alert"] {
+  border: 2px solid firebrick;
+  padding: 1rem;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
